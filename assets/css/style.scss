@@ -27,6 +27,9 @@ body{
     padding-top: 10px;
     color: white;
 }
+header h1{
+    color: white !important;
+}
 #subtitulo{
     color: white;
 }
@@ -57,7 +60,7 @@ a:hover{
 }
 
 h1:before{
-    content: none !important;
+    content: &nbsp !important;
 }
 
 
