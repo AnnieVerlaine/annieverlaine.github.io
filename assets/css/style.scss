@@ -51,9 +51,13 @@ a:hover{
     color: white;
     padding-right: 4px;
 }
-.fa-whatsapp:before, .fa-facebook:before, .fa-phone-alt:before{
+.fa-whatsapp:before, .fa-facebook:before, .fa-mobile-alt:before{
     color: white;
     font-size: 50px;
+}
+
+h1:before{
+    content: none !important;
 }
 
 
